@@ -1,0 +1,513 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: #EEEEEE;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  margin-bottom: 100px;
+  padding-top: 20px;
+  position: fixed;
+  
+  background-color: #EEEEEE;
+  width: 100%;
+  
+  z-index: 1030;
+}
+
+#header-img{
+  width: 320px;
+ /* margin-left: -250px;
+  margin-top: -40px;*/
+  margin-left: 80px;
+}
+
+li{
+  list-style-type: none;
+  padding: .5em 2.5em;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav ul{
+  display: flex;
+  margin-left: 280px;
+}
+
+section{
+  margin-bottom: 100px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.section-container{
+/*   position: absolute; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  
+  margin-top: 100px;
+
+  width: 1000px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin-bottom: 100px;
+}
+
+#email{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 250px;
+  height: 20px;
+}
+
+#submit{
+  background-color: yellow;
+  width: 130px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color: #d7a80f;
+}
+
+
+
+.fSpace{
+  margin-top: 50px;
+}
+
+
+
+i{
+  color: #d7a80f;
+}
+
+ .feature{
+/*   display: flex;
+  justify-content: space-between; */
+  text-align: left;
+} 
+
+.feature-text{
+  margin-left: 100px;
+  margin-top: -50px;
+  
+}
+
+#how-it-works{
+  margin-bottom: 50px;
+}
+
+#pricing{
+  display: flex;
+}
+
+
+.price{
+  width: 280px;
+  height: 290px;
+  border: 1px solid black;
+   
+  margin: 10px;
+  text-align:center;
+  
+}
+
+.priceTitle{
+  font-weight: bold;
+  background-color: #ddd;
+  width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.price p{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.price ul{
+   text-align:center;
+  margin-left: -30px;
+}
+
+.price ul li{
+  font-size: 15px;
+  
+ 
+  width: 180px;
+  
+}
+
+.price button{
+  margin-top: 25px;
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 15px;
+}
+
+.price button:hover{
+  cursor: pointer;
+  background-color: #d7a80f;
+}
+
+footer{
+  height: 70px;
+  background-color: #ddd;
+  width: 74.2%;
+  margin: 0 auto;
+}
+
+footer ul{
+  display: flex;
+  justify-content: flex-end;
+  
+  margin-right: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  
+  
+}
+
+footer ul li{
+  padding: 0px;
+  margin-top: 20px;
+  
+  width: 70px;
+}
+
+
+footer p{
+  display: flex;
+  justify-content: flex-end;
+  
+  font-size: 15px;
+  color: #444;
+  
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+
+
+
+
+/*Media Querys */
+
+@media (max-width: 550px){
+  header {
+    
+    flex-wrap: wrap;
+  }
+  
+  #header-img{
+    margin: 0;
+  }
+  
+  nav{
+    margin-top: 10px;
+    margin-right: 50%;
+    text-align: center;
+  }
+  
+  #nav-bar ul{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  li{
+    width: 110px;
+  }
+  
+  .section-container{
+    position: relative;
+    margin-top: 200px;
+  }
+  
+  h1{
+    font-size: 25px;
+  }
+  
+  #video{
+    width: 500px;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px){
+   header {
+    
+    flex-wrap: wrap;
+  }
+  
+  #header-img{
+    margin: 0;
+  }
+  
+  nav{
+    margin-top: 10px;
+    margin-right: 50%;
+    text-align: center;
+  }
+  
+  #nav-bar ul{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  li{
+    width: 110px;
+  }
+  
+  .section-container{
+    position: relative;
+    margin-top: 200px;
+  }
+  
+  h1{
+    font-size: 25px;
+  }
+  
+  #video{
+    width: 500px;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+}
+
+@media (max-width: 650px){
+  header {
+    
+    flex-wrap: wrap;
+  }
+  
+  #header-img{
+    margin: 0;
+  }
+  
+  nav{
+    margin-top: 10px;
+    margin-right: 50%;
+    text-align: center;
+  }
+  
+  #nav-bar ul{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  li{
+    width: 110px;
+  }
+  
+  .section-container{
+    position: relative;
+    margin-top: 200px;
+  }
+  
+  h1{
+    font-size: 25px;
+  }
+  
+  #video{
+    width: 500px;
+  }
+  
+  #features{
+    display: flex;
+    flex-direction: column;
+    
+    width: 200px;
+  }
+  
+  .fa{
+    display: none;
+  }
+  
+  .feature{
+    width: 90%;
+  }
+  
+  .feature-text{
+    margin-top: 0;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px){
+  header {
+    
+    flex-wrap: wrap;
+  }
+  
+  #header-img{
+    margin: 0;
+  }
+  
+  nav{
+    margin-top: 10px;
+    margin-right: 50%;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  #nav-bar ul{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  li{
+    width: 110px;
+  }
+  
+  .section-container{
+    position: relative;
+    margin-top: 200px;
+  }
+  
+  h1{
+    font-size: 25px;
+  }
+  
+  #video{
+    width: 600px;
+  }
+  
+  #features{
+    display: flex;
+    flex-direction: column;
+    
+    width: 700px;
+  }
+  
+  #pricing{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1120px) {
+  
+  header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  
+/*   margin-bottom: 100px;
+  padding-top: 20px;
+  position: fixed;
+  
+  
+  width: 100%; */
+  
+  
+}
+  
+/*   #header-img{
+    margin-left: 800px;
+  }
+  
+  nav ul{
+    margin-right: 700px;
+  } */
+  
+  #nav-bar{
+      margin-left: -290px;
+  }
+  
+    li{
+    width: 110px;
+
+  } 
+  
+  .section-container{
+    position: relative;
+    
+  }
+  
+/*   video{
+    width: 2000px;
+  } */
+  
+  #features{
+    display: flex;
+    flex-direction: column;
+    
+    width: 700px;
+  }
+  
+  
+}
+
+@media (min-width: 800px){
+  li{
+    width: 110px;
+
+  } 
+}
+
+@media (max-width: 905px){
+  #pricing{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
